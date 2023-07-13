@@ -23,7 +23,7 @@ body {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(/images/vax2.jpg);
+        url(../images/vax2.jpg);
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -152,7 +152,7 @@ body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)),
-        url(/images/iStock-923692030.jpg);
+        url(../images/iStock-923692030.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -210,7 +210,7 @@ body {
 }
 
 .general-2 {
-    background-image: url(/images/iStock-945849940.jpg);
+    background-image: url(../images/iStock-945849940.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,7 +218,7 @@ body {
 }
 
 .general-3 {
-    background-image: url(/images/3232.jpg);
+    background-image: url(../images/3232.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,7 +243,7 @@ p {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(/images/fondo2.jpg);
+        url(../images/fondo2.jpg);
     padding: 100px 0;
     background-color: #000000;
     min-height: 20vh;
