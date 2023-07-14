@@ -27,7 +27,7 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 30vh;
+        min-height: 40vh;
         display: flex;
         align-items: center;
 }
@@ -293,7 +293,11 @@ p {
     }
 
     .menu .navbar ul li {
-        width: 100%;
+        width: 50%;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 12px;
     }
 
     #menu:checked ~ .navbar {
