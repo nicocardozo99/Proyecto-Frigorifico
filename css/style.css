@@ -27,7 +27,7 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 40vh;
+        min-height: 38vh;
         display: flex;
         align-items: center;
 }
@@ -48,6 +48,10 @@ body {
     font-weight: 800;
 }
 
+.logo img {
+    width: 190px;
+}
+
 .menu .navbar ul li {
     position: relative;
     float: left;
@@ -63,7 +67,7 @@ body {
 }
 
 .menu .navbar ul li a:hover {
-    color: rgb(122, 16, 16);
+    color: rgb(148, 28, 28);
     transition: 0.5s;
 }
 
@@ -96,13 +100,8 @@ body {
     text-align: center;
 }
 
-.meat-content h2 {
-    font-size: 55px;
-    line-height: 70px;
-    color: rgb(122, 16, 16);
-    text-transform: uppercase;
-    padding: 0 250px;
-    margin-bottom: 15px;
+.meat-content img {
+    width: 500px;
 }
 
 /* .meat-content span {
@@ -191,7 +190,8 @@ body {
 }
 
 .products-1 img {
-    width: 80px;
+    width: 150px;
+    height: 120px;
     margin-bottom: 15px;
 }
 
@@ -211,7 +211,7 @@ body {
 }
 
 .general-2 {
-    background-image: url(../images/iStock-945849940.jpg);
+    background-image: url(../images/3232.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +219,7 @@ body {
 }
 
 .general-3 {
-    background-image: url(../images/3232.jpg);
+    background-image: url(../images/iStock-945849940.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,13 +240,54 @@ p {
     margin: 25px 0 45px 0;
 }
 
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.blog-2 {
+    padding: 15px 55px;
+}
+
+
+.blog-2 img {
+    margin-top: 60px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.blog-2 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
 .footer {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
         url(../images/fondo2.jpg);
-    padding: 100px 0;
-    min-height: 20vh;
+    padding: 50px 0;
+    min-height: 10vh;
 }
 
 .footer-content {
@@ -255,28 +296,42 @@ p {
 }
 
 .footer img {
-    width: 80px;
-    margin-bottom: 15px;
+    width: 55px;
+    margin: 15px 0px;
+}
+
+.link-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-1 h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 7px;
 }
 
 .link h3 {
     font-size: 18px;
     color: #F9FAFC;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 .link ul li {
     flex-direction: column;
-    font-size: 16px;
+    font-size: 15px;
     color: #C5C5C5;
     display: block;
     margin-bottom: 15px;
 }
 
+
+
 @media(max-width:991px) {
 
     .menu {
-        padding: 30px;
+        padding: 0;
     }
 
     .menu label {
@@ -342,8 +397,14 @@ p {
         margin-bottom: 25px;
     }
 
-    .general {
+    #info {
+        display: flex;
         flex-direction: column;
+    }
+
+    #info2 {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .general-1 {
@@ -352,9 +413,29 @@ p {
         text-align: center;
     }
 
-/*     .general-2, .general-3 {
-        display: none;
-    } */
+    .general-2 {
+        width: 100%;
+        padding: 30px;
+        min-height: 70vh;
+    }
+
+    .general-3 {
+        width: 100%;
+        padding: 30px;
+        min-height: 70vh;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
 
     .footer {
         padding: 30px;
