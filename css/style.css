@@ -370,6 +370,7 @@ p {
     }
 
     .meat-content h2 {
+        font-size: 40px;
         padding: 0;
     }
 
@@ -388,6 +389,10 @@ p {
 
     .products {
         padding: 30px;
+    }
+
+    .products h2 {
+        font-size: 40px;
     }
 
     .products-content p {
@@ -441,6 +446,10 @@ p {
 
     .blog-content {
         flex-direction: column;
+    }
+
+    .blog h2 {
+        font-size: 40px;
     }
 
     .blog-1 {
